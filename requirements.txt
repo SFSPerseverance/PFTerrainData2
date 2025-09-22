@@ -3,3 +3,4 @@ requests==2.31.0
 Pillow==11.3.0
 numpy==2.3.3 
 mercantile==1.2.1
+gunicorn==21.2.0
