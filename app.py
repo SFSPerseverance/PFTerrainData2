@@ -12,7 +12,7 @@ import mercantile   # make sure mercantile is pinned in requirements
 # CONFIG
 # =====================
 TILE_CACHE_DIR = "tiles_json"
-WMTS_URL = "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2018_3857/default/g/{z}/{y}/{x}.jpg"
+WMTS_URL = "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpg"
 
 os.makedirs(TILE_CACHE_DIR, exist_ok=True)
 app = Flask(__name__)
