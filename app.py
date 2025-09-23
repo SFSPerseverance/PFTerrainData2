@@ -11,7 +11,7 @@ import mercantile
 # CONFIG
 # =====================
 TILE_CACHE_DIR = "tiles_json"
-WMTS_URL = "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2024_3857/default/g/{z}/{y}/{x}.jpg"
+WMTS_URL = "https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2018_3857/default/g/{z}/{y}/{x}.jpg"
 DEFAULT_TILE_ZOOM = 12
 
 os.makedirs(TILE_CACHE_DIR, exist_ok=True)
